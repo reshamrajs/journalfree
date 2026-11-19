@@ -1,0 +1,301 @@
+[
+  {
+    "id": 6,
+    "journal": "Artificial Intelligence in Medicine",
+    "publisher": "Elsevier",
+    "subjects": [
+      "Health informatics",
+      "AI/ML"
+    ],
+    "accessModel": "Subscription (hybrid)",
+    "indexing": "SCIE",
+    "quartile": "Q1",
+    "impactFactor": 6.2,
+    "ifVerified": false,
+    "speed": "Moderate",
+    "greenOA": "Yes - AAM after embargo",
+    "url": "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine",
+    "notes": "Strong fit for clinical AI"
+  },
+  {
+    "id": 9,
+    "journal": "Computer Methods and Programs in Biomedicine",
+    "publisher": "Elsevier",
+    "subjects": [
+      "Health informatics"
+    ],
+    "accessModel": "Subscription (hybrid)",
+    "indexing": "SCIE",
+    "quartile": "Q1",
+    "impactFactor": 4.8,
+    "ifVerified": true,
+    "speed": "Moderate",
+    "greenOA": "Yes - AAM after embargo",
+    "url": "https://www.sciencedirect.com/journal/computer-methods-and-programs-in-biomedicine",
+    "notes": "Reasonable speed"
+  },
+  {
+    "id": 10,
+    "journal": "Computerized Medical Imaging and Graphics",
+    "publisher": "Elsevier",
+    "subjects": [
+      "Medical imaging"
+    ],
+    "accessModel": "Subscription (hybrid)",
+    "indexing": "SCIE",
+    "quartile": "Q1",
+    "impactFactor": 5.4,
+    "ifVerified": false,
+    "speed": "Moderate",
+    "greenOA": "Yes - AAM after embargo",
+    "url": "https://www.sciencedirect.com/journal/computerized-medical-imaging-and-graphics",
+    "notes": "Very close topical fit"
+  },
+  {
+    "id": 4,
+    "journal": "Computers in Biology and Medicine",
+    "publisher": "Elsevier",
+    "subjects": [
+      "Health informatics",
+      "Medical imaging"
+    ],
+    "accessModel": "Subscription (hybrid)",
+    "indexing": "SCIE",
+    "quartile": "Q1",
+    "impactFactor": 6.3,
+    "ifVerified": true,
+    "speed": "Fast",
+    "greenOA": "Yes - AAM after embargo",
+    "url": "https://www.sciencedirect.com/journal/computers-in-biology-and-medicine",
+    "notes": "Fast; high volume; strong fit"
+  },
+  {
+    "id": 7,
+    "journal": "Expert Systems with Applications",
+    "publisher": "Elsevier",
+    "subjects": [
+      "AI/ML"
+    ],
+    "accessModel": "Subscription (hybrid)",
+    "indexing": "SCIE",
+    "quartile": "Q1",
+    "impactFactor": 7.5,
+    "ifVerified": false,
+    "speed": "Fast",
+    "greenOA": "Yes - AAM after embargo",
+    "url": "https://www.sciencedirect.com/journal/expert-systems-with-applications",
+    "notes": "Fast; broad scope"
+  },
+  {
+    "id": 3,
+    "journal": "IEEE Journal of Biomedical and Health Informatics",
+    "publisher": "IEEE",
+    "subjects": [
+      "Health informatics",
+      "AI/ML"
+    ],
+    "accessModel": "Subscription (hybrid)",
+    "indexing": "SCIE",
+    "quartile": "Q1",
+    "impactFactor": 6.7,
+    "ifVerified": true,
+    "speed": "Moderate",
+    "greenOA": "Yes - AAM, personal site/arXiv",
+    "url": "https://www.embs.org/jbhi/",
+    "notes": "Health informatics angle"
+  },
+  {
+    "id": 14,
+    "journal": "IEEE Transactions on Biomedical Engineering",
+    "publisher": "IEEE",
+    "subjects": [
+      "Biomedical engineering"
+    ],
+    "accessModel": "Subscription (hybrid)",
+    "indexing": "SCIE",
+    "quartile": "Q1",
+    "impactFactor": 4.6,
+    "ifVerified": false,
+    "speed": "Moderate",
+    "greenOA": "Yes - AAM, personal site/arXiv",
+    "url": "https://www.embs.org/tbme/",
+    "notes": "Broad biomedical engineering"
+  },
+  {
+    "id": 1,
+    "journal": "IEEE Transactions on Medical Imaging",
+    "publisher": "IEEE",
+    "subjects": [
+      "Medical imaging",
+      "AI/ML"
+    ],
+    "accessModel": "Subscription (hybrid)",
+    "indexing": "SCIE",
+    "quartile": "Q1",
+    "impactFactor": 9.8,
+    "ifVerified": true,
+    "speed": "Slow",
+    "greenOA": "Yes - accepted manuscript, personal site/arXiv",
+    "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42",
+    "notes": "Top venue for the field"
+  },
+  {
+    "id": 15,
+    "journal": "Int. Journal of Computer Assisted Radiology and Surgery",
+    "publisher": "Springer",
+    "subjects": [
+      "Medical imaging",
+      "Surgery"
+    ],
+    "accessModel": "Subscription (hybrid)",
+    "indexing": "SCIE",
+    "quartile": "Q1/Q2",
+    "impactFactor": 2.9,
+    "ifVerified": false,
+    "speed": "Moderate",
+    "greenOA": "Yes - AAM after 12 months",
+    "url": "https://link.springer.com/journal/11548",
+    "notes": "Clinical-translational angle"
+  },
+  {
+    "id": 17,
+    "journal": "Journal of Imaging Informatics in Medicine",
+    "publisher": "Springer",
+    "subjects": [
+      "Medical imaging",
+      "Health informatics"
+    ],
+    "accessModel": "Subscription (hybrid)",
+    "indexing": "SCIE",
+    "quartile": "Q1/Q2",
+    "impactFactor": 2.9,
+    "ifVerified": false,
+    "speed": "Moderate",
+    "greenOA": "Yes - AAM after 12 months",
+    "url": "https://link.springer.com/journal/10278",
+    "notes": "Formerly J. Digital Imaging"
+  },
+  {
+    "id": 8,
+    "journal": "Knowledge-Based Systems",
+    "publisher": "Elsevier",
+    "subjects": [
+      "AI/ML"
+    ],
+    "accessModel": "Subscription (hybrid)",
+    "indexing": "SCIE",
+    "quartile": "Q1",
+    "impactFactor": 7.2,
+    "ifVerified": false,
+    "speed": "Fast",
+    "greenOA": "Yes - AAM after embargo",
+    "url": "https://www.sciencedirect.com/journal/knowledge-based-systems",
+    "notes": "Fast"
+  },
+  {
+    "id": 2,
+    "journal": "Medical Image Analysis",
+    "publisher": "Elsevier",
+    "subjects": [
+      "Medical imaging",
+      "AI/ML"
+    ],
+    "accessModel": "Subscription (hybrid)",
+    "indexing": "SCIE",
+    "quartile": "Q1",
+    "impactFactor": 10.7,
+    "ifVerified": false,
+    "speed": "Moderate",
+    "greenOA": "Yes - AAM after embargo",
+    "url": "https://www.sciencedirect.com/journal/medical-image-analysis",
+    "notes": "Best topical fit; highly competitive"
+  },
+  {
+    "id": 12,
+    "journal": "Medical Physics",
+    "publisher": "Wiley (AAPM)",
+    "subjects": [
+      "Medical physics",
+      "Medical imaging"
+    ],
+    "accessModel": "Subscription (hybrid)",
+    "indexing": "SCIE",
+    "quartile": "Q1",
+    "impactFactor": 3.5,
+    "ifVerified": false,
+    "speed": "Moderate",
+    "greenOA": "Yes - AAM after embargo",
+    "url": "https://aapm.onlinelibrary.wiley.com/journal/24734209",
+    "notes": "Established medical physics venue"
+  },
+  {
+    "id": 13,
+    "journal": "Neurocomputing",
+    "publisher": "Elsevier",
+    "subjects": [
+      "AI/ML"
+    ],
+    "accessModel": "Subscription (hybrid)",
+    "indexing": "SCIE",
+    "quartile": "Q1",
+    "impactFactor": 6.0,
+    "ifVerified": false,
+    "speed": "Fast",
+    "greenOA": "Yes - AAM after embargo",
+    "url": "https://www.sciencedirect.com/journal/neurocomputing",
+    "notes": "Fast turnaround"
+  },
+  {
+    "id": 5,
+    "journal": "Pattern Recognition",
+    "publisher": "Elsevier",
+    "subjects": [
+      "AI/ML",
+      "Computer vision"
+    ],
+    "accessModel": "Subscription (hybrid)",
+    "indexing": "SCIE",
+    "quartile": "Q1",
+    "impactFactor": 7.5,
+    "ifVerified": false,
+    "speed": "Moderate",
+    "greenOA": "Yes - AAM after embargo",
+    "url": "https://www.sciencedirect.com/journal/pattern-recognition",
+    "notes": "Method-focused framing needed"
+  },
+  {
+    "id": 16,
+    "journal": "Physica Medica (European Journal of Medical Physics)",
+    "publisher": "Elsevier",
+    "subjects": [
+      "Medical physics"
+    ],
+    "accessModel": "Subscription (hybrid)",
+    "indexing": "SCIE",
+    "quartile": "Q1/Q2",
+    "impactFactor": 3.4,
+    "ifVerified": false,
+    "speed": "Moderate",
+    "greenOA": "Yes - AAM after embargo",
+    "url": "https://www.physicamedica.com/",
+    "notes": "Already cited in the paper"
+  },
+  {
+    "id": 11,
+    "journal": "Physics in Medicine & Biology",
+    "publisher": "IOP Publishing",
+    "subjects": [
+      "Medical physics",
+      "Medical imaging"
+    ],
+    "accessModel": "Subscription (hybrid)",
+    "indexing": "SCIE",
+    "quartile": "Q1",
+    "impactFactor": 3.5,
+    "ifVerified": false,
+    "speed": "Moderate",
+    "greenOA": "Yes - AAM after 12 months",
+    "url": "https://iopscience.iop.org/journal/0031-9155",
+    "notes": "Already cited 8 times in the paper"
+  }
+]

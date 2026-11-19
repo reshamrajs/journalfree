@@ -1,0 +1,38 @@
+name: Suggest a journal or correction
+description: Add a journal, or fix wrong data for one already listed
+labels: ["data"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of change?
+      options:
+        - Add a new journal
+        - Correct an existing journal
+        - Remove a journal (it now charges a mandatory APC)
+    validations:
+      required: true
+  - type: input
+    id: journal
+    attributes:
+      label: Journal name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Journal home page (https://...)
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Quartile, impact factor (and where you checked it), publisher, subject, whether a no-fee subscription route exists, green OA policy.
+    validations:
+      required: true
+  - type: input
+    id: evidence
+    attributes:
+      label: Source / evidence link
+      description: A page that confirms the information (journal guide for authors, JCR, Sherpa Romeo).

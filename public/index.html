@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JournalFree</title>
+  <meta name="description" content="Find high-impact journals you can publish in without paying an article processing charge (APC).">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <nav class="topnav" aria-label="Site"><a href="https://reshamrajs.github.io/open-tools/">← All tools</a><a href="https://github.com/reshamrajs/journalfree">GitHub</a></nav>
+      <h1>JournalFree</h1>
+      <p class="tagline">High-impact journals you can publish in <strong>without paying an APC</strong>.
+        Every journal here has a free subscription route, and most let you post your accepted manuscript openly (green open access).</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="controls" aria-label="Search and filters">
+      <label class="search">
+        <span class="sr-only">Search journals</span>
+        <input id="q" type="search" placeholder="Search by journal, publisher or note…" autocomplete="off">
+      </label>
+
+      <div class="filter-row">
+        <label>Publisher
+          <select id="publisher"><option value="">All</option></select>
+        </label>
+        <label>Quartile
+          <select id="quartile">
+            <option value="">All</option>
+            <option value="Q1">Q1 only</option>
+            <option value="Q1/Q2">Q1/Q2</option>
+          </select>
+        </label>
+        <label>Speed
+          <select id="speed">
+            <option value="">Any</option>
+            <option value="Fast">Fast</option>
+            <option value="Moderate">Moderate</option>
+            <option value="Slow">Slow</option>
+          </select>
+        </label>
+        <label>Sort by
+          <select id="sort">
+            <option value="if">Impact factor (high → low)</option>
+            <option value="name">Name (A → Z)</option>
+            <option value="speed">Speed (fast first)</option>
+          </select>
+        </label>
+        <label class="check">
+          <input id="verified" type="checkbox"> Verified impact factor only
+        </label>
+      </div>
+
+      <div id="subjects" class="chips" role="group" aria-label="Filter by subject"></div>
+    </section>
+
+    <p id="count" class="count" aria-live="polite"></p>
+
+    <section id="compare" class="compare" hidden aria-label="Compare journals">
+      <div class="compare-head">
+        <h2>Compare</h2>
+        <button id="clear-compare" class="link-btn" type="button">Clear</button>
+      </div>
+      <div class="table-scroll"><table id="compare-table"></table></div>
+    </section>
+
+    <section id="list" class="grid" aria-label="Journals"></section>
+  </main>
+
+  <footer class="wrap site-footer">
+    <p>Data is community maintained. Impact factors marked <span class="badge warn">unverified</span> are estimates;
+      always confirm on the journal's page before submitting.</p>
+    <p><a id="suggest" href="#">Suggest a journal or correction</a> · <a id="source" href="#">Source code</a> ·
+      Code MIT, data CC BY 4.0</p>
+  </footer>
+
+  <template id="card-tpl">
+    <article class="card">
+      <div class="card-top">
+        <h3 class="title"><a target="_blank" rel="noopener"></a></h3>
+        <span class="quartile"></span>
+      </div>
+      <p class="publisher"></p>
+      <dl class="facts">
+        <div><dt>Impact factor</dt><dd class="if"></dd></div>
+        <div><dt>Speed</dt><dd class="speed"></dd></div>
+        <div><dt>Indexing</dt><dd class="indexing"></dd></div>
+      </dl>
+      <p class="oa"></p>
+      <p class="notes"></p>
+      <div class="card-foot">
+        <div class="tags"></div>
+        <label class="cmp"><input type="checkbox"> Compare</label>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
